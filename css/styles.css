@@ -1,0 +1,62 @@
+/* Reset default margins and paddings */
+html,
+body,
+header,
+.container,
+.section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and default font size for the page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the header with the page heading */
+header {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Create the container to hold the sections */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style each section */
+.section {
+  flex-basis: calc(33.33% - 40px);
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Style section title region */
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff9999; /* Set a unique color for each section title region */
+  color: white; /* Change the text color to ensure readability */
+  padding: 5px 10px;
+  font-size: 125%; /* 25% larger than the font size of the dummy text */
+}
+
+/* Style the dummy text */
+.dummy-text {
+  margin-top: 30px;
+  font-size: 16px;
+}
