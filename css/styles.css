@@ -23,7 +23,7 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 175%;
 }
 
 /* Create the container to hold the sections */
@@ -69,6 +69,8 @@ background-color: #ff9999;
   margin-top: 30px;
   font-size: 16px;
 }
+
+/*Deskop/tablet/phone view rules*/
 @media (min-width: 992px) {
   .section {
     width: 30%; 
@@ -79,7 +81,6 @@ background-color: #ff9999;
 @media (min-width: 768px) and (max-width: 991px) {
   #beef , #chicken {
 width: 45%;
-float : left;
   }
   #sushi {
     width: 100%; 
@@ -90,6 +91,5 @@ float : left;
 @media (max-width: 767px) {
   .section {
     width: 100%;
-    float: left;
   }
 }
