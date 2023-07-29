@@ -48,10 +48,20 @@ header h1 {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ff9999; /* Set a unique color for each section title region */
-  color: white; /* Change the text color to ensure readability */
+  color: white; 
   padding: 5px 10px;
-  font-size: 125%; /* 25% larger than the font size of the dummy text */
+  font-size: 125%; 
+}
+
+#chi{
+
+background-color: #ff9999;
+}
+#be{
+  background-color: rgb(255, 101, 101);
+}
+#su{
+  background-color: rgb(234, 234, 88);
 }
 
 /* Style the dummy text */
